@@ -8,13 +8,20 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-<div className='bg-stone-900 text-slate-50 font-roboto'>
-  <div className='max-w-5xl x-11/12 mx-auto'>
-    <Intro/>
-    <Portfolio/>
-    <Timeline/>
-    <Contact/>
-    <Footer/>
-  </div>
-</div>)
+    <>
+      <Head>
+        <title>Rachit</title>
+        <link rel='icon' href='/myicon.png'/>
+      </Head>
+      <div className='bg-stone-900 text-slate-50 font-roboto'>
+        <div className='max-w-5xl x-11/12 mx-auto'>
+          <Intro/>
+          <Portfolio/>
+          <Timeline/>
+          <Contact/>
+          <Footer/>
+        </div>
+      </div>
+  </>
+  )
 }
