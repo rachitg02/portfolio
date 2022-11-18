@@ -1,10 +1,10 @@
 export default [
    {
       year: 'Today',
-      title: "Bachelor's Degree Computer Science",
+      title: "Bachelor of Technology",
       duration: '3 years',
       details: 
-         'My humble attempt at building my version of the digital world one step at a time by documenting my coding journey and creating software engineering and computer science content to help those coming behind me.',
+         'I pursued my B.Tech in Computer Science. I learned a lot about how computer software works internally. I fell in love with Software Development. Met some really intresting people as well and worked with them in teams to make projects.',
    },
    {
 		year: '2021',
