@@ -9,7 +9,8 @@ function Timeline() {
          <div className="w-full md:w-7/12">
             <Title>Timeline</Title>
             {timeline.map(item => (
-               <TimelineItem 
+               <TimelineItem
+                  key={item.title} 
                   year={item.year}
                   title={item.title}
                   duration={item.duration}
